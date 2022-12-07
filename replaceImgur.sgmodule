@@ -5,6 +5,6 @@
 ^http://imgur\.com https://rimgo.encrypted-data.xyz 302
 ^http://i\.imgur\.com https://rimgo.encrypted-data.xyz 302
 ^http://m\.imgur\.com https://rimgo.encrypted-data.xyz 302
-
+^http://imgur\.io https://rimgo.encrypted-data.xyz 302
 [MITM]
 hostname = %APPEND% imgur.com, m.imgur.com, i.imgur.com
