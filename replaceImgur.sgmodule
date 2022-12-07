@@ -7,4 +7,4 @@
 ^https://imgur\.io https://rimgo.encrypted-data.xyz 302
 
 [MITM]
-hostname = %APPEND% imgur.com, m.imgur.com, i.imgur.com
+hostname = %APPEND% imgur.com, m.imgur.com, i.imgur.com, imgur.io
