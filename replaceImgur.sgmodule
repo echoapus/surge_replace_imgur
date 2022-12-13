@@ -1,11 +1,11 @@
 #!name=imgur_redirect_to_rimgo.encrypted-data.xyz
 #!desc=imgur_redirect_to_rimgo.encrypted-data.xyz
 [URL Rewrite]
-^https://imgur\.com https://rimgo.encrypted-data.xyz 302
-^https://i\.imgur\.com https://rimgo.encrypted-data.xyz 302
-^https://m\.imgur\.com https://rimgo.encrypted-data.xyz 302
-^https://imgur\.io https://rimgo.encrypted-data.xyz 302
-^https?://i?.?imgur.com(/.*)? https://rimgo.encrypted-data.xyz 302
+^https://imgur\.com https://rimgo.vern.cc 302
+^https://i\.imgur\.com https://rimgo.vern.cc 302
+^https://m\.imgur\.com https://rimgo.vern.cc 302
+^https://imgur\.io https://rimgo.vern.cc 302
+^https?://i?.?imgur.com(/.*)? https://rimgo.vern.cc 302
 
 [MITM]
 hostname = %APPEND% imgur.com, m.imgur.com, i.imgur.com, imgur.io, i?.?imgur.com
