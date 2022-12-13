@@ -1,5 +1,6 @@
-#!name=imgur_redirect_to_rimgo.encrypted-data.xyz
-#!desc=imgur_redirect_to_rimgo.encrypted-data.xyz
+#!name=imgur_redirect
+#!desc=imgur_redirect
+#https://codeberg.org/video-prize-ranch/rimgo#instances
 [URL Rewrite]
 ^https://imgur\.com https://rimgo.vern.cc 302
 ^https://i\.imgur\.com https://rimgo.vern.cc 302
