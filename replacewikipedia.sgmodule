@@ -1,0 +1,8 @@
+#!name=wikipedia_redirect
+#!desc=wikipedia_redirect
+[URL Rewrite]
+^https://zh\.wikipedia\.org https://wiki.privacytools.io/ 302
+^https://m\.zh\.wikipedia\.org https://wiki.privacytools.io/ 302
+
+[MITM]
+hostname = %APPEND% zh.wikipedia.org, *.wikipedia.org
