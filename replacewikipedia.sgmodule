@@ -5,4 +5,4 @@
 ^https://zh\.m\.wikipedia\.org https://wiki.privacytools.io/ 302
 
 [MITM]
-hostname = %APPEND% zh.wikipedia.org, *.wikipedia.org
+hostname = %APPEND% zh.wikipedia.org, *.wikipedia.org, zh.m.wikipedia.org
