@@ -3,10 +3,10 @@
 #https://codeberg.org/video-prize-ranch/rimgo#instances
 [URL Rewrite]
 ^https://imgur\.com https://rimgo.vern.cc 302
-^https://i\.imgur\.com https://rimgo.vern.cc 302
-^https://m\.imgur\.com https://rimgo.vern.cc 302
-^https://imgur\.io https://rimgo.vern.cc 302
-^https?://i?.?imgur.com(/.*)? https://rimgo.vern.cc 302
+^https://i\.imgur\.com  https://rimgo.bcow.xyz 302
+^https://m\.imgur\.com https://rimgo.bcow.xyz 302
+^https://imgur\.io https://rimgo.bcow.xyz 302
+^https?://i?.?imgur.com(/.*)? https://rimgo.bcow.xyz 302
 
 [MITM]
 hostname = %APPEND% imgur.com, m.imgur.com, i.imgur.com, imgur.io, i?.?imgur.com
