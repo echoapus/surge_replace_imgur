@@ -1,7 +1,7 @@
 #!name=tiktok_redirect_to_proxitok.marcopisco.com
 #!desc=tiktok_redirect_to_proxitok.marcopisco.com
 [URL Rewrite]
-^https://www\.tiktok\.com https://tt.vern.cc 302
+^https://www\.tiktok\.com https://tik.hostux.net/ 302
 
 [MITM]
 hostname = %APPEND% www.tiktok.com, tiktok.com
