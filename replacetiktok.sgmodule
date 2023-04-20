@@ -1,7 +1,7 @@
 #!name=tiktok_redirect
 #!desc=tiktok_redirect
 [URL Rewrite]
-^https://www\.tiktok\.com https://proxitok.manasiwibi.com 302
+^https://www\.tiktok\.com https://cringe.whatever.social/ 302
 
 [MITM]
 hostname = %APPEND% www.tiktok.com, tiktok.com
