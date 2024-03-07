@@ -2,11 +2,11 @@
 #!desc=imgur_redirect
 #https://codeberg.org/video-prize-ranch/rimgo#instances
 [URL Rewrite]
-^https://imgur\.com https://rimgo.projectsegfau.lt 302
-^https://i\.imgur\.com https://rimgo.projectsegfau.lt 302
-^https://m\.imgur\.com https://rimgo.projectsegfau.lt 302
-^https://imgur\.io https://rimgo.projectsegfau.lt 302
-^https?://i?.?imgur.com(/.*)? https://rimgo.projectsegfau.lt 302
+^https://imgur\.com https://imgur.010032.xyz 302
+^https://i\.imgur\.com https://imgur.010032.xyz 302
+^https://m\.imgur\.com https://imgur.010032.xyz 302
+^https://imgur\.io https://imgur.010032.xyz 302
+^https?://i?.?imgur.com(/.*)? https://imgur.010032.xyz 302
 
 [MITM]
 hostname = %APPEND% imgur.com, m.imgur.com, i.imgur.com, imgur.io, i?.?imgur.com
