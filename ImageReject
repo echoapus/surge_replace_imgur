@@ -1,0 +1,10 @@
+#!name=ImageReject
+#!desc=ImageReject - enable MitM
+#!system=ios
+
+[Rule]
+URL-REGEX,^https:\/\/.*\.(jpg|jpeg|png|gif|bmp|svg|webp)$, REJECT
+
+
+[MITM]
+hostname = *
