@@ -7,4 +7,4 @@ URL-REGEX,^https:\/\/.*\.(jpg|jpeg|png|gif|bmp|svg|webp)$, REJECT
 
 
 [MITM]
-hostname = *
+hostname = %APPEND% *
